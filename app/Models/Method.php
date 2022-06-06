@@ -13,4 +13,6 @@ class Method extends Model
         'id',
         'name',
     ];
+
+    protected $table = "transaction.methods";
 }

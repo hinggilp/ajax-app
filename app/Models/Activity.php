@@ -16,4 +16,6 @@ class Activity extends Model
         'date_end',
         'method_id',
     ];
+
+    protected $table = "transaction.activities";
 }
